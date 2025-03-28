@@ -23,6 +23,7 @@
             width: 500px;
             border-collapse: collapse;
             margin: auto;
+            position: relative;
 
         }
 
@@ -38,6 +39,11 @@
             background-color: rgb(19, 90, 20);
             color: white;
             text-align: center;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(19, 90, 20);
         }
         tbody > tr:nth-child(odd) { /* 2n-1 */
             background-color: lightgray;
