@@ -8,9 +8,9 @@
 <body>
     <h1>Meu site principal</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus possimus iusto ipsa praesentium dolores, quo nostrum eligendi sed, commodi fuga, mollitia placeat. Eaque nostrum modi itaque laborum facere fuga repellat?</p>
-    <iframe src="paginas-extras/pagina004.html" sandbox="sandbox" referrerpolicy="no -referrer">
-        
-    </iframe>
+    <iframe src="paginas-extras/pagina004.html" sandbox="allow-forms allow-same-origin allow-scripts" referrerpolicy="no -referrer">
+        <!-- para segurança maxima, o atributo sandbox impede que o iframe execute scripts, redirecione a página, etc. -->
+        <!-- o atributo referrerpolicy impede que o iframe envie informações de referência ao site externo, ou seja não será possível capturar dados.-->
         seu navegador não suporta iframes...
     </iframe>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non ipsum facilis voluptates minus, voluptas magnam iure libero veritatis excepturi culpa modi aliquid, in, at officia aspernatur ducimus. Totam, culpa nesciunt.</p>
