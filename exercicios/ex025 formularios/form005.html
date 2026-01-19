@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on"></form>
+    <fieldset>
+        <legend>Sexo</legend>
+        <p>
+            <input type="radio" name="sexo" id="imas" value="M"> <label for="imas">Masculino</label> <br>
+            <input type="radio" name="sexo" id="ifem" value="F"> <label for="ifem">Feminino</label> <!--Lembra de usar o label para associar o texto ao input \\ usar o mesmo nome para o atributo name, com atributos id diferentes-->
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Esportes favoritos</legend>
+        <p>
+            <input type="checkbox" name="esbas" id="iebas"> <label for="iesbas">Basquete</label> <br>
+            <input type="checkbox" name="esfut" id="iefut" checked> <label for="iesfut">Futebol</label> <br>
+            <input type="checkbox" name="eshan" id="iehan"> <label for="ieshan">Handebol</label> <br>
+            <input type="checkbox" name="esvol" id="iesvol" checked> <label for="iesvol">Vôleibol</label> <br>
+        </p>
+    </fieldset>
+    <p>
+        <input type="button" value="Enviar">
+    </p>
+
+    
+</body>
+</html>
