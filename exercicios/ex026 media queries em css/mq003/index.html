@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        /*Configurações gerais do site*/
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        html, body {
+            width: 100vw;
+            height: 100vh;
+            background-color: #233eff;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        h1 {
+            color: rgb(231, 231, 0);
+            text-shadow: 2px 2px 0px #15217d;
+            padding: 10px;
+        }
+        /*estilo para orientação em pé*/
+        body {
+            background-image: url('../imagens/cev-portrait.jpg');
+            background-position: center bottom;
+            
+        }
+        /*estilo para orientação paisagem*/
+        body {
+            background-image: url('../imagens/cev-landscape.jpg');
+            background-position: left bottom;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mude a orientação do seu dispositivo</h1>
+</body>
+</html>
